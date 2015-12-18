@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-MAINTAINER f99aq8ove <f99aq8ove [at] gmail.com>
+MAINTAINER devagorilla <devagorilla [at] gmail.com>
 
 RUN apt-get update && \
     apt-get upgrade -q -y && \
@@ -8,7 +8,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/3.9/gitbucket.war /opt/gitbucket.war
+ADD https://github.com/modelergy/gitbucket/releases/download/3.9-COTS-alpha/gitbucket.war /opt/gitbucket.war
 
 RUN ln -s /gitbucket /root/.gitbucket
 
