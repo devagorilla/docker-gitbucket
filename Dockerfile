@@ -19,4 +19,8 @@ EXPOSE 8080
 # Port for SSH access to git repository (Optional)
 EXPOSE 29418
 
+EXPOSE 81
+
+EXPOSE 1521
+
 # CMD ["java", "-jar", "/opt/gitbucket.war"]
