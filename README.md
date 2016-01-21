@@ -1,7 +1,6 @@
 docker-gitbucket
 ================
 
-Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) installed.
 
 ## Usage
 
